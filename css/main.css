@@ -107,20 +107,22 @@ body {
   background-color: rgb(136,155,115);
 }
 
-<<<<<<< HEAD
+#img-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
 
-=======
->>>>>>> a7b33fe9226b6b82bca60641ccb26be203c029a5
 .square {
-  float:left;
-  position: relative;
-  width: 30%;
+  /* float:left;
+  position: relative; */
+  width: 20vh;
+  height:20vh;
   margin:1.66%;
   background-position:center center;
   background-repeat:no-repeat;
   background-size:cover;
 }
-<<<<<<< HEAD
 
 
 
@@ -129,11 +131,6 @@ body {
 /* ==========================================================================
   Helper classes
   ========================================================================== */
-=======
- /* ==========================================================================
-   Helper classes
-   ========================================================================== */
->>>>>>> a7b33fe9226b6b82bca60641ccb26be203c029a5
 
 /*
  * Hide visually and from screen readers
