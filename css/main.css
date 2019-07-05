@@ -102,40 +102,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#img-div {
-  display: grid;
-  grid: repeat(2, 100px) / auto-flow 150px;
-  width: 100%;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  justify-items: center;
-}
-
-#image {
-  max-width: 100%;
-  height: auto;
-  justify-items: center;
-  display: block;
-
-}
 
 body {
   background-color: rgb(136,155,115);
 }
 
 
+.square {
+  float:left;
+  position: relative;
+  width: 30%;
+  margin:1.66%;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 
 
 
 
 
-
-
-
- /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+/* ==========================================================================
+  Helper classes
+  ========================================================================== */
 
 /*
  * Hide visually and from screen readers
