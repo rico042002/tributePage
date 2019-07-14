@@ -107,19 +107,17 @@ body {
   background-color: rgb(136,155,115);
 }
 
-#img-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+#img-div img {
+  display: block;
+  margin: auto;
+  padding: 10px;
 }
 
 .square {
-  /* float:left;
-  position: relative; */
-  width: 20vh;
-  height:20vh;
+  display: inline-block;
+  max-width: 30vh;
+  max-height: auto;
   margin:1.66%;
-  background-position:center center;
   background-repeat:no-repeat;
   background-size:cover;
 }
